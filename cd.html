@@ -2,42 +2,61 @@
 <html>
     <head>
         <meta charset=“utf-8” />
-		<title>Chong Qing House - Track name</title>
+        <title>Chong Qing House - Track name</title>
+        
+        <style>   
+            #outer {
+                width:100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            #inner {
+                margin: 0;
+                padding: 10pt;
+                background-color: white;
+                border-style: solid;
+            }
+        </style>
     </head>
-    <body>
+    <body id="example1">
         <header>
-            <h1>CD Title</h1>
+            <h1 style="text-align: center; margin:50pt; margin-bottom: 20pt; background-color: white; padding: 20pt; border-style: solid;">CD Title</h1>
         </header>
-        <p>Artist: Someone</p>
-        <ul>
-            <li>
-                <p>Song name</p>
-                <p>Artist name</p>
-                <p>Length</p>
-                <p>Genre</p>
-                <p>Notes</p>
-            </li>
-            <li>
-                <p>Song name</p>
-                <p>Artist name</p>
-                <p>Length</p>
-                <p>Genre</p>
-                <p>Notes</p>
-            </li>
-            <li>
-                <p>Song name</p>
-                <p>Artist name</p>
-                <p>Length</p>
-                <p>Genre</p>
-                <p>Notes</p>
-            </li>
-            <li>
-                <p>Song name</p>
-                <p>Artist name</p>
-                <p>Length</p>
-                <p>Genre</p>
-                <p>Notes</p>
-            </li>
-        </ul>
+        <div id="outer">
+            <div id="inner">
+                <p>Artist: Someone</p>
+                <ul>
+                    <li style="background-color: wheat;">
+                        <p>Song name</p>
+                        <p>Artist name</p>
+                        <p>Length</p>
+                        <p>Genre</p>
+                        <p>Notes</p>
+                    </li>
+                    <li style="background-color: teal; color: white;">
+                        <p>Song name</p>
+                        <p>Artist name</p>
+                        <p>Length</p>
+                        <p>Genre</p>
+                        <p>Notes</p>
+                    </li>
+                    <li style="background-color: tomato;">
+                        <p>Song name</p>
+                        <p>Artist name</p>
+                        <p>Length</p>
+                        <p>Genre</p>
+                        <p>Notes</p>
+                    </li>
+                    <li style="background-color: yellow;">
+                        <p>Song name</p>
+                        <p>Artist name</p>
+                        <p>Length</p>
+                        <p>Genre</p>
+                        <p>Notes</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

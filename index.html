@@ -2,17 +2,36 @@
 <html>
     <head>
         <meta charset=“utf-8” />
-		<title>Chong Qing House - Main</title>
+        <title>Chong Qing House - Main</title>
+        <link rel="stylesheet" href="style.css"/>
+
+        <style>        
+            .center {
+                padding: 10pt;
+                background-color: white;
+                border-style: solid;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        </style>
     </head>
-    <body>
+    <body id="example1">
         <header>
-            <h1>Search for a CD</h1>
+            <h1 style="text-align: center; margin:50pt; margin-bottom: 20pt; background-color: white; padding: 20pt; border-style: solid;">Welcome to Chong Qing House</h1>
         </header>
-        <form action="results.html">
-			<label for="cd_name">CD name</label>
-            <input type="text" id="cd_name" name="cd_name" placeholder="Mark Mendy - Hide & Seek"/>
-            <br>
-		    <input type="submit" value="Submit">
-		</form>
+        <br/>
+        <div class="center">
+            <h2 style="text-align: center;">Search for a CD</h2>
+            <form action="results.html" style="text-align: center;">
+                <label for="cd_name" style="text-align: center; font-size: 20pt;">CD name</label>
+                <br/><br/>
+                <input type="text" id="cd_name" name="cd_name" placeholder="Mark Mendy - Hide & Seek" style="text-align: center;"/>
+                <br/><br/>
+                <input type="submit" value="Search">
+            </form>
+        </div>
     </body>
 </html>
